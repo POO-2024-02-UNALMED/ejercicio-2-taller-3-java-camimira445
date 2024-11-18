@@ -3,7 +3,7 @@ package gestionHumana;
 public class Empleado {
 
     public final long cedula;
-    private String nombre;
+    public String nombre;
     private String cargo;
     
     public Empleado(long cedula, String nombre, String cargo) {
